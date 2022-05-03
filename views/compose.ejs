@@ -1,0 +1,13 @@
+
+<%- include('header.ejs'); %>
+
+
+    <h1 class= "composeheader1">Compose</h1>
+    <form action="/compose" method="post"><br />
+      <label>Title</label><br />
+      <textarea name="title" rows="1" cols="80"></textarea><br />
+      <label>Post</label><br />
+      <textarea name="post" rows="6" cols="80"></textarea> <br>
+      <button class = "btn btn-secondary" type="submit" name="button">Submit</button>
+
+<%- include('footer.ejs'); %>

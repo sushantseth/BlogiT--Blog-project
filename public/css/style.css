@@ -1,0 +1,25 @@
+.nav-item {
+  padding:   10px 30px 10px;
+}
+.container-fluid {
+  width: 70%
+}
+.footercopyright{
+  font-size: 12px;
+}
+
+.composeheader1{
+
+  padding: 20px 0 20px 0;
+}
+h3{
+  padding-top: 10px;
+  color: #8D8DAA;
+}
+h2{
+padding-top: 30px;
+
+}
+.brand{
+  font-size: 40px;
+}

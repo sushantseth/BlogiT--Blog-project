@@ -1,0 +1,19 @@
+
+<%- include('header.ejs'); %>
+
+
+    <h2>Home Page</h2>
+    <p> <%=homeStartingContent%> </p>
+
+  <%  for(var i = 0 ;i < hometitle.length ; i++){  %>
+
+    <h3>  <%= hometitle[i] %> </h3> <br />
+
+    <p> <%= homepost[i].substring(0,100) + " ..." %>   <a href="http://localhost:3000/post/<%= hometitle[i] %> ">read more</a> </p>
+
+
+   <% }  %>
+
+<%- include('footer.ejs'); %>
+
+<%# we can append the ejs function as well %>
